@@ -677,8 +677,8 @@ address {
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
 
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 2s cubic-bezier(0.4, 0, 0.2, 1), visibility 2s cubic-bezier(0.4, 0, 0.2, 1);
+  /* animation: rotate-vert-center 3s both; */
 }
 
 .backdrop.is-hidden {
@@ -703,7 +703,7 @@ address {
 
   /* animation-name: appearWindow;
   animation-duration: 5s; */
-  animation: rotate-vert-center 0.5s both;
+  /* animation: rotate-vert-center 0.5s both; */
 }
 
 .modal-btn {
